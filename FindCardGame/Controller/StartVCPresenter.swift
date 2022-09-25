@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol StartVCprotocol {
+    func updateScoreValueLabel(value: String)
+}
